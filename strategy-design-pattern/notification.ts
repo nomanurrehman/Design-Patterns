@@ -5,7 +5,8 @@ export class Notification {
   private readonly transport: Transport;
   
   constructor(content: string, transport: Transport) {
-
+    this.content = content;
+    this.transport = transport;
   }
 
   public send(): void {
