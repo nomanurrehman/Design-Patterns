@@ -10,6 +10,6 @@ export class Notification {
   }
 
   public send(): void {
-    this.transport.send();
+    this.transport.send(this.content);
   }
 }

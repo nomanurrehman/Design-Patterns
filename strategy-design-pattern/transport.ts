@@ -1,3 +1,3 @@
 export interface Transport {
-  send(): void;  
+  send(content: string): void;  
 }
